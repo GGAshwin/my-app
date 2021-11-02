@@ -1,15 +1,16 @@
 import React from 'react'
 import '../navbar.css'
 //import PropTypes from 'prop-types'
-function Navbar(){
+function Navbar(props){
     return(
     <>
-    <header>
+    <header style={props.mode}>
         <ul>
             <li>Home</li>
             <li>About</li>
             <li>Services</li>
         </ul>
+        <input type="checkbox" name="check" id="check" onClick={props.toggle}  />
     </header>
     </>
     )
