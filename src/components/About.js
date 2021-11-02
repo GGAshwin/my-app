@@ -27,7 +27,7 @@ export default function About() {
     return (
         <div style={dark}>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium dicta aut, quaerat nostrum, itaque vel veniam, quod consequuntur mollitia hic nisi. Suscipit sunt quisquam voluptate minus voluptates, aliquam maiores quae reprehenderit magnam repudiandae temporibus harum atque voluptatibus id dolore porro incidunt rerum corporis eligendi iusto, doloremque amet. Ducimus, repellendus debitis? A doloribus rem quaerat quas natus voluptate quod totam rerum impedit eveniet! Impedit consequatur, suscipit voluptas ipsum quidem architecto libero, quod iure odio doloribus, optio sapiente maxime harum commodi tempora consectetur omnis corporis natus tempore. Et reiciendis, corporis adipisci eum id blanditiis cupiditate iste voluptatum minus suscipit nulla ut.</p>
-            <button classNamea="btn" onClick={toggleStyle}>{btn}</button>
+            <button className="btn" onClick={toggleStyle}>{btn}</button>
         </div>
     )
 }
